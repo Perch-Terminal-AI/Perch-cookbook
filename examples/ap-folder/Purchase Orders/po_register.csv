@@ -1,0 +1,7 @@
+po_number,vendor_id,approved_amount,currency,status
+PO-5001,V001,12000.00,USD,open
+PO-5002,V002,18000.00,USD,open
+PO-5003,V003,9500.00,USD,open
+PO-5004,V004,4200.00,USD,open
+PO-5005,V005,30000.00,USD,open
+PO-5006,V006,7800.00,USD,open

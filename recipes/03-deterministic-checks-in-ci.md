@@ -6,19 +6,22 @@ Because the accounts payable checks are computed rather than generated, they ret
 
 ## Assert exact totals
 
+The values below are the real output of the included [`examples/ap-folder`](../examples/ap-folder), so this command passes as written:
+
 ```bash
 perch test ap ./examples/ap-folder \
-  --expect totalSpend=699559.79 \
-  --expect duplicateRecoverableExposure=94890.13
+  --expect totalSpend=129850 \
+  --expect duplicateRecoverableExposure=11800
 ```
 
-The command exits non-zero if any expected value does not match, so a regression in the data or the pipeline fails the build instead of slipping through.
-
-## Run a named profile
-
-```bash
-perch test ap ./examples/ap-folder --profile financial-lab-v2 --json
 ```
+Perch AP scenario PASS
+Checks: 10 passed, 0 failed, 0 warning(s)
+Spend: $129,850.00
+Duplicate recoverable exposure: $11,800.00
+```
+
+The command exits non-zero if any expected value does not match, so a regression in the data or the pipeline fails the build instead of slipping through. To find the values for your own folder, run `perch ap evidence <folder> --json` once and read them from the `summary` block.
 
 ## Wire it into GitHub Actions
 
@@ -39,8 +42,8 @@ jobs:
       # See https://perchai.app/docs for the current CI auth step.
       - run: |
           perch test ap ./data/ap \
-            --expect totalSpend=699559.79 \
-            --expect duplicateRecoverableExposure=94890.13 \
+            --expect totalSpend=129850 \
+            --expect duplicateRecoverableExposure=11800 \
             --json
 ```
 

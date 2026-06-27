@@ -1,0 +1,5 @@
+# Perch run artifacts generated when you run the recipes
+perch-artifacts/
+perch-output/
+.perch/
+.DS_Store
