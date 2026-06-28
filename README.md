@@ -24,6 +24,7 @@ perch run "summarize what Perch can do"
 | 02 | [Find duplicate payments in a folder](recipes/02-find-duplicate-payments.md) | CLI | Run an AP audit over real files |
 | 03 | [Deterministic AP checks in CI](recipes/03-deterministic-checks-in-ci.md) | CLI | Assert exact financial totals in a pipeline |
 | 04 | [Verify citations in a draft](recipes/04-verify-citations.md) | Web / Desktop | Catch unsupported and fabricated citations |
+| 05 | [Analyze a spreadsheet with sandboxed Python](recipes/05-analyze-a-spreadsheet.md) | CLI | Profile messy data with deterministic checks |
 
 ## How Perch is different
 

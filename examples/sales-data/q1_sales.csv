@@ -1,0 +1,462 @@
+transaction_id,date,customer_id,product,quantity,unit_price,region,sales_rep
+TXN-1001,2026-01-15,CUST-001,Widget A,2,49.99,North,Alice
+TXN-1002,2026-01-16,CUST-002,Gadget B,1,129.50,South,Bob
+TXN-1003,2026-01-17,CUST-003,Widget A,3,49.99,East,Alice
+TXN-1004,2026-01-18,CUST-001,Widget A,2,49.99,North,Alice
+TXN-1005,2026-01-19,,Gadget B,1,129.50,West,Bob
+TXN-1006,2026-01-20,CUST-004,Thingamajig,5,19.99,North,Charlie
+TXN-1007,2026-01-21,CUST-005,Widget A,1,49.99,South,Alice
+TXN-1008,2026-01-22,CUST-002,Gadget B,1,129.50,South,Bob
+TXN-1009,2026-01-23,CUST-006,Widget A,4,49.99,East,Charlie
+TXN-1010,2026-01-24,CUST-007,Thingamajig,2,19.99,West,Bob
+TXN-1011,2026-01-25,CUST-001,Widget A,2,49.99,North,Alice
+TXN-1012,2026-01-26,CUST-008,Gadget B,1,129.50,South,Alice
+TXN-1013,2026-01-27,CUST-009,Widget A,3,49.99,East,Bob
+TXN-1014,2026-01-28,CUST-010,Thingamajig,10,19.99,North,Charlie
+TXN-1015,2026-01-29,CUST-011,Widget A,1,49.99,West,Alice
+TXN-1016,2026-01-30,CUST-012,Gadget B,2,129.50,South,Bob
+TXN-1017,2026-01-31,CUST-013,Widget A,5,49.99,East,Charlie
+TXN-1018,2026-02-01,CUST-014,Thingamajig,3,19.99,North,Bob
+TXN-1019,2026-02-02,CUST-015,Widget A,2,49.99,West,Alice
+TXN-1020,2026-02-03,CUST-016,Gadget B,1,129.50,South,Charlie
+TXN-1021,2026-02-04,CUST-017,Widget A,4,49.99,East,Bob
+TXN-1022,2026-02-05,CUST-018,Thingamajig,2,19.99,North,Alice
+TXN-1023,2026-02-06,CUST-019,Widget A,1,49.99,West,Bob
+TXN-1024,2026-02-07,CUST-020,Gadget B,3,129.50,South,Alice
+TXN-1025,2026-02-08,CUST-021,Widget A,2,49.99,East,Charlie
+TXN-1026,2026-02-09,CUST-022,Thingamajig,5,19.99,North,Bob
+TXN-1027,2026-02-10,CUST-023,Widget A,1,49.99,West,Alice
+TXN-1028,2026-02-11,CUST-024,Gadget B,1,129.50,South,Charlie
+TXN-1029,2026-02-12,CUST-025,Widget A,3,49.99,East,Bob
+TXN-1030,2026-02-13,CUST-026,Thingamajig,2,19.99,North,Alice
+TXN-1031,2026-02-14,CUST-027,Widget A,4,49.99,West,Bob
+TXN-1032,2026-02-15,CUST-028,Gadget B,2,129.50,South,Alice
+TXN-1033,2026-02-16,CUST-029,Widget A,1,49.99,East,Charlie
+TXN-1034,2026-02-17,CUST-030,Thingamajig,6,19.99,North,Bob
+TXN-1035,2026-02-18,CUST-031,Widget A,2,49.99,West,Alice
+TXN-1036,2026-02-19,CUST-032,Gadget B,1,129.50,South,Charlie
+TXN-1037,2026-02-20,CUST-033,Widget A,5,49.99,East,Bob
+TXN-1038,2026-02-21,CUST-034,Thingamajig,3,19.99,North,Alice
+TXN-1039,2026-02-22,CUST-035,Widget A,2,49.99,West,Bob
+TXN-1040,2026-02-23,CUST-036,Gadget B,1,129.50,South,Alice
+TXN-1041,2026-02-24,CUST-037,Widget A,4,49.99,East,Charlie
+TXN-1042,2026-02-25,CUST-038,Thingamajig,2,19.99,North,Bob
+TXN-1043,2026-02-26,CUST-039,Widget A,1,49.99,West,Alice
+TXN-1044,2026-02-27,CUST-040,Gadget B,3,129.50,South,Charlie
+TXN-1045,2026-02-28,CUST-041,Widget A,2,49.99,East,Bob
+TXN-1046,2026-03-01,CUST-042,Thingamajig,7,19.99,North,Alice
+TXN-1047,2026-03-02,CUST-043,Widget A,1,49.99,West,Bob
+TXN-1048,2026-03-03,CUST-044,Gadget B,2,129.50,South,Alice
+TXN-1049,2026-03-04,CUST-045,Widget A,3,49.99,East,Charlie
+TXN-1050,2026-03-05,CUST-046,Thingamajig,2,19.99,North,Bob
+TXN-1051,2026-03-06,CUST-047,Widget A,4,49.99,West,Alice
+TXN-1052,2026-03-07,CUST-048,Gadget B,1,129.50,South,Charlie
+TXN-1053,2026-03-08,CUST-049,Widget A,2,49.99,East,Bob
+TXN-1054,2026-03-09,CUST-050,Thingamajig,5,19.99,North,Alice
+TXN-1055,2026-03-10,CUST-051,Widget A,1,49.99,West,Bob
+TXN-1056,2026-03-11,CUST-052,Gadget B,2,129.50,South,Alice
+TXN-1057,2026-03-12,CUST-053,Widget A,3,49.99,East,Charlie
+TXN-1058,2026-03-13,CUST-054,Thingamajig,2,19.99,North,Bob
+TXN-1059,2026-03-14,CUST-055,Widget A,4,49.99,West,Alice
+TXN-1060,2026-03-15,CUST-056,Gadget B,1,129.50,South,Charlie
+TXN-1061,2026-03-16,CUST-057,Widget A,2,49.99,East,Bob
+TXN-1062,2026-03-17,CUST-058,Thingamajig,6,19.99,North,Alice
+TXN-1063,2026-03-18,CUST-059,Widget A,1,49.99,West,Bob
+TXN-1064,2026-03-19,CUST-060,Gadget B,2,129.50,South,Alice
+TXN-1065,2026-03-20,CUST-061,Widget A,3,49.99,East,Charlie
+TXN-1066,2026-03-21,CUST-062,Thingamajig,2,19.99,North,Bob
+TXN-1067,2026-03-22,CUST-063,Widget A,4,49.99,West,Alice
+TXN-1068,2026-03-23,CUST-064,Gadget B,1,129.50,South,Charlie
+TXN-1069,2026-03-24,CUST-065,Widget A,2,49.99,East,Bob
+TXN-1070,2026-03-25,CUST-066,Thingamajig,5,19.99,North,Alice
+TXN-1071,2026-03-26,CUST-067,Widget A,1,49.99,West,Bob
+TXN-1072,2026-03-27,CUST-068,Gadget B,2,129.50,South,Alice
+TXN-1073,2026-03-28,CUST-069,Widget A,3,49.99,East,Charlie
+TXN-1074,2026-03-29,CUST-070,Thingamajig,2,19.99,North,Bob
+TXN-1075,2026-03-30,CUST-071,Widget A,4,49.99,West,Alice
+TXN-1076,2026-03-31,CUST-072,Gadget B,1,129.50,South,Charlie
+TXN-1077,2026-04-01,CUST-073,Widget A,2,49.99,East,Bob
+TXN-1078,2026-04-02,CUST-074,Thingamajig,7,19.99,North,Alice
+TXN-1079,2026-04-03,CUST-075,Widget A,1,49.99,West,Bob
+TXN-1080,2026-04-04,CUST-076,Gadget B,2,129.50,South,Alice
+TXN-1081,2026-04-05,CUST-077,Widget A,3,49.99,East,Charlie
+TXN-1082,2026-04-06,CUST-078,Thingamajig,2,19.99,North,Bob
+TXN-1083,2026-04-07,CUST-079,Widget A,4,49.99,West,Alice
+TXN-1084,2026-04-08,CUST-080,Gadget B,1,129.50,South,Charlie
+TXN-1085,2026-04-09,CUST-081,Widget A,2,49.99,East,Bob
+TXN-1086,2026-04-10,CUST-082,Thingamajig,5,19.99,North,Alice
+TXN-1087,2026-04-11,CUST-083,Widget A,1,49.99,West,Bob
+TXN-1088,2026-04-12,CUST-084,Gadget B,2,129.50,South,Alice
+TXN-1089,2026-04-13,CUST-085,Widget A,3,49.99,East,Charlie
+TXN-1090,2026-04-14,CUST-086,Thingamajig,2,19.99,North,Bob
+TXN-1091,2026-04-15,CUST-087,Widget A,4,49.99,West,Alice
+TXN-1092,2026-04-16,CUST-088,Gadget B,1,129.50,South,Charlie
+TXN-1093,2026-04-17,CUST-089,Widget A,2,49.99,East,Bob
+TXN-1094,2026-04-18,CUST-090,Thingamajig,6,19.99,North,Alice
+TXN-1095,2026-04-19,CUST-091,Widget A,1,49.99,West,Bob
+TXN-1096,2026-04-20,CUST-092,Gadget B,2,129.50,South,Alice
+TXN-1097,2026-04-21,CUST-093,Widget A,3,49.99,East,Charlie
+TXN-1098,2026-04-22,CUST-094,Thingamajig,2,19.99,North,Bob
+TXN-1099,2026-04-23,CUST-095,Widget A,4,49.99,West,Alice
+TXN-1100,2026-04-24,CUST-096,Gadget B,1,129.50,South,Charlie
+TXN-1101,2026-04-25,CUST-097,Widget A,2,49.99,East,Bob
+TXN-1102,2026-04-26,CUST-098,Thingamajig,5,19.99,North,Alice
+TXN-1103,2026-04-27,CUST-099,Widget A,1,49.99,West,Bob
+TXN-1104,2026-04-28,CUST-100,Gadget B,2,129.50,South,Alice
+TXN-1105,2026-04-29,CUST-101,Widget A,3,49.99,East,Charlie
+TXN-1106,2026-04-30,CUST-102,Thingamajig,2,19.99,North,Bob
+TXN-1107,2026-05-01,CUST-103,Widget A,4,49.99,West,Alice
+TXN-1108,2026-05-02,CUST-104,Gadget B,1,129.50,South,Charlie
+TXN-1109,2026-05-03,CUST-105,Widget A,2,49.99,East,Bob
+TXN-1110,2026-05-04,CUST-106,Thingamajig,6,19.99,North,Alice
+TXN-1111,2026-05-05,CUST-107,Widget A,1,49.99,West,Bob
+TXN-1112,2026-05-06,CUST-108,Gadget B,2,129.50,South,Alice
+TXN-1113,2026-05-07,CUST-109,Widget A,3,49.99,East,Charlie
+TXN-1114,2026-05-08,CUST-110,Thingamajig,2,19.99,North,Bob
+TXN-1115,2026-05-09,CUST-111,Widget A,4,49.99,West,Alice
+TXN-1116,2026-05-10,CUST-112,Gadget B,1,129.50,South,Charlie
+TXN-1117,2026-05-11,CUST-113,Widget A,2,49.99,East,Bob
+TXN-1118,2026-05-12,CUST-114,Thingamajig,5,19.99,North,Alice
+TXN-1119,2026-05-13,CUST-115,Widget A,1,49.99,West,Bob
+TXN-1120,2026-05-14,CUST-116,Gadget B,2,129.50,South,Alice
+TXN-1121,2026-05-15,CUST-117,Widget A,3,49.99,East,Charlie
+TXN-1122,2026-05-16,CUST-118,Thingamajig,2,19.99,North,Bob
+TXN-1123,2026-05-17,CUST-119,Widget A,4,49.99,West,Alice
+TXN-1124,2026-05-18,CUST-120,Gadget B,1,129.50,South,Charlie
+TXN-1125,2026-05-19,CUST-121,Widget A,2,49.99,East,Bob
+TXN-1126,2026-05-20,CUST-122,Thingamajig,6,19.99,North,Alice
+TXN-1127,2026-05-21,CUST-123,Widget A,1,49.99,West,Bob
+TXN-1128,2026-05-22,CUST-124,Gadget B,2,129.50,South,Alice
+TXN-1129,2026-05-23,CUST-125,Widget A,3,49.99,East,Charlie
+TXN-1130,2026-05-24,CUST-126,Thingamajig,2,19.99,North,Bob
+TXN-1131,2026-05-25,CUST-127,Widget A,4,49.99,West,Alice
+TXN-1132,2026-05-26,CUST-128,Gadget B,1,129.50,South,Charlie
+TXN-1133,2026-05-27,CUST-129,Widget A,2,49.99,East,Bob
+TXN-1134,2026-05-28,CUST-130,Thingamajig,5,19.99,North,Alice
+TXN-1135,2026-05-29,CUST-131,Widget A,1,49.99,West,Bob
+TXN-1136,2026-05-30,CUST-132,Gadget B,2,129.50,South,Alice
+TXN-1137,2026-05-31,CUST-133,Widget A,3,49.99,East,Charlie
+TXN-1138,2026-06-01,CUST-134,Thingamajig,2,19.99,North,Bob
+TXN-1139,2026-06-02,CUST-135,Widget A,4,49.99,West,Alice
+TXN-1140,2026-06-03,CUST-136,Gadget B,1,129.50,South,Charlie
+TXN-1141,2026-06-04,CUST-137,Widget A,2,49.99,East,Bob
+TXN-1142,2026-06-05,CUST-138,Thingamajig,6,19.99,North,Alice
+TXN-1143,2026-06-06,CUST-139,Widget A,1,49.99,West,Bob
+TXN-1144,2026-06-07,CUST-140,Gadget B,2,129.50,South,Alice
+TXN-1145,2026-06-08,CUST-141,Widget A,3,49.99,East,Charlie
+TXN-1146,2026-06-09,CUST-142,Thingamajig,2,19.99,North,Bob
+TXN-1147,2026-06-10,CUST-143,Widget A,4,49.99,West,Alice
+TXN-1148,2026-06-11,CUST-144,Gadget B,1,129.50,South,Charlie
+TXN-1149,2026-06-12,CUST-145,Widget A,2,49.99,East,Bob
+TXN-1150,2026-06-13,CUST-146,Thingamajig,5,19.99,North,Alice
+TXN-1151,2026-06-14,CUST-147,Widget A,1,49.99,West,Bob
+TXN-1152,2026-06-15,CUST-148,Gadget B,2,129.50,South,Alice
+TXN-1153,2026-06-16,CUST-149,Widget A,3,49.99,East,Charlie
+TXN-1154,2026-06-17,CUST-150,Thingamajig,2,19.99,North,Bob
+TXN-1155,2026-06-18,CUST-151,Widget A,4,49.99,West,Alice
+TXN-1156,2026-06-19,CUST-152,Gadget B,1,129.50,South,Charlie
+TXN-1157,2026-06-20,CUST-153,Widget A,2,49.99,East,Bob
+TXN-1158,2026-06-21,CUST-154,Thingamajig,6,19.99,North,Alice
+TXN-1159,2026-06-22,CUST-155,Widget A,1,49.99,West,Bob
+TXN-1160,2026-06-23,CUST-156,Gadget B,2,129.50,South,Alice
+TXN-1161,2026-06-24,CUST-157,Widget A,3,49.99,East,Charlie
+TXN-1162,2026-06-25,CUST-158,Thingamajig,2,19.99,North,Bob
+TXN-1163,2026-06-26,CUST-159,Widget A,4,49.99,West,Alice
+TXN-1164,2026-06-27,CUST-160,Gadget B,1,129.50,South,Charlie
+TXN-1165,2026-06-28,CUST-161,Widget A,2,49.99,East,Bob
+TXN-1166,2026-06-29,CUST-162,Thingamajig,5,19.99,North,Alice
+TXN-1167,2026-06-30,CUST-163,Widget A,1,49.99,West,Bob
+TXN-1168,2026-07-01,CUST-164,Gadget B,2,129.50,South,Alice
+TXN-1169,2026-07-02,CUST-165,Widget A,3,49.99,East,Charlie
+TXN-1170,2026-07-03,CUST-166,Thingamajig,2,19.99,North,Bob
+TXN-1171,2026-07-04,CUST-167,Widget A,4,49.99,West,Alice
+TXN-1172,2026-07-05,CUST-168,Gadget B,1,129.50,South,Charlie
+TXN-1173,2026-07-06,CUST-169,Widget A,2,49.99,East,Bob
+TXN-1174,2026-07-07,CUST-170,Thingamajig,6,19.99,North,Alice
+TXN-1175,2026-07-08,CUST-171,Widget A,1,49.99,West,Bob
+TXN-1176,2026-07-09,CUST-172,Gadget B,2,129.50,South,Alice
+TXN-1177,2026-07-10,CUST-173,Widget A,3,49.99,East,Charlie
+TXN-1178,2026-07-11,CUST-174,Thingamajig,2,19.99,North,Bob
+TXN-1179,2026-07-12,CUST-175,Widget A,4,49.99,West,Alice
+TXN-1180,2026-07-13,CUST-176,Gadget B,1,129.50,South,Charlie
+TXN-1181,2026-07-14,CUST-177,Widget A,2,49.99,East,Bob
+TXN-1182,2026-07-15,CUST-178,Thingamajig,5,19.99,North,Alice
+TXN-1183,2026-07-16,CUST-179,Widget A,1,49.99,West,Bob
+TXN-1184,2026-07-17,CUST-180,Gadget B,2,129.50,South,Alice
+TXN-1185,2026-07-18,CUST-181,Widget A,3,49.99,East,Charlie
+TXN-1186,2026-07-19,CUST-182,Thingamajig,2,19.99,North,Bob
+TXN-1187,2026-07-20,CUST-183,Widget A,4,49.99,West,Alice
+TXN-1188,2026-07-21,CUST-184,Gadget B,1,129.50,South,Charlie
+TXN-1189,2026-07-22,CUST-185,Widget A,2,49.99,East,Bob
+TXN-1190,2026-07-23,CUST-186,Thingamajig,6,19.99,North,Alice
+TXN-1191,2026-07-24,CUST-187,Widget A,1,49.99,West,Bob
+TXN-1192,2026-07-25,CUST-188,Gadget B,2,129.50,South,Alice
+TXN-1193,2026-07-26,CUST-189,Widget A,3,49.99,East,Charlie
+TXN-1194,2026-07-27,CUST-190,Thingamajig,2,19.99,North,Bob
+TXN-1195,2026-07-28,CUST-191,Widget A,4,49.99,West,Alice
+TXN-1196,2026-07-29,CUST-192,Gadget B,1,129.50,South,Charlie
+TXN-1197,2026-07-30,CUST-193,Widget A,2,49.99,East,Bob
+TXN-1198,2026-07-31,CUST-194,Thingamajig,5,19.99,North,Alice
+TXN-1199,2026-08-01,CUST-195,Widget A,1,49.99,West,Bob
+TXN-1200,2026-08-02,CUST-196,Gadget B,2,129.50,South,Alice
+TXN-1201,2026-08-03,CUST-197,Widget A,3,49.99,East,Charlie
+TXN-1202,2026-08-04,CUST-198,Thingamajig,2,19.99,North,Bob
+TXN-1203,2026-08-05,CUST-199,Widget A,4,49.99,West,Alice
+TXN-1204,2026-08-06,CUST-200,Gadget B,1,129.50,South,Charlie
+TXN-1205,2026-08-07,CUST-201,Widget A,2,49.99,East,Bob
+TXN-1206,2026-08-08,CUST-202,Thingamajig,5,19.99,North,Alice
+TXN-1207,2026-08-09,CUST-203,Widget A,1,49.99,West,Bob
+TXN-1208,2026-08-10,CUST-204,Gadget B,2,129.50,South,Alice
+TXN-1209,2026-08-11,CUST-205,Widget A,3,49.99,East,Charlie
+TXN-1210,2026-08-12,CUST-206,Thingamajig,2,19.99,North,Bob
+TXN-1211,2026-08-13,CUST-207,Widget A,4,49.99,West,Alice
+TXN-1212,2026-08-14,CUST-208,Gadget B,1,129.50,South,Charlie
+TXN-1213,2026-08-15,CUST-209,Widget A,2,49.99,East,Bob
+TXN-1214,2026-08-16,CUST-210,Thingamajig,5,19.99,North,Alice
+TXN-1215,2026-08-17,CUST-211,Widget A,1,49.99,West,Bob
+TXN-1216,2026-08-18,CUST-212,Gadget B,2,129.50,South,Alice
+TXN-1217,2026-08-19,CUST-213,Widget A,3,49.99,East,Charlie
+TXN-1218,2026-08-20,CUST-214,Thingamajig,2,19.99,North,Bob
+TXN-1219,2026-08-21,CUST-215,Widget A,4,49.99,West,Alice
+TXN-1220,2026-08-22,CUST-216,Gadget B,1,129.50,South,Alice
+TXN-1221,2026-08-23,CUST-217,Widget A,2,49.99,East,Bob
+TXN-1222,2026-08-24,CUST-218,Thingamajig,5,19.99,North,Alice
+TXN-1223,2026-08-25,CUST-219,Widget A,1,49.99,West,Bob
+TXN-1224,2026-08-26,CUST-220,Gadget B,2,129.50,South,Alice
+TXN-1225,2026-08-27,CUST-221,Widget A,3,49.99,East,Charlie
+TXN-1226,2026-08-28,CUST-222,Thingamajig,2,19.99,North,Bob
+TXN-1227,2026-08-29,CUST-223,Widget A,4,49.99,West,Alice
+TXN-1228,2026-08-30,CUST-224,Gadget B,1,129.50,South,Charlie
+TXN-1229,2026-08-31,CUST-225,Widget A,2,49.99,East,Bob
+TXN-1230,2026-09-01,CUST-226,Thingamajig,5,19.99,North,Alice
+TXN-1231,2026-09-02,CUST-227,Widget A,3,49.99,East,Charlie
+TXN-1232,2026-09-03,CUST-228,Gadget B,2,129.50,South,Alice
+TXN-1233,2026-09-04,CUST-229,Widget A,1,49.99,West,Bob
+TXN-1234,2026-09-05,CUST-230,Thingamajig,5,19.99,North,Alice
+TXN-1235,2026-09-06,CUST-231,Widget A,2,49.99,West,Bob
+TXN-1236,2026-09-07,CUST-232,Gadget B,1,129.50,South,Alice
+TXN-1237,2026-09-08,CUST-233,Widget A,3,49.99,East,Charlie
+TXN-1238,2026-09-09,CUST-234,Thingamajig,2,19.99,North,Bob
+TXN-1239,2026-09-10,CUST-235,Widget A,4,49.99,West,Alice
+TXN-1240,2026-09-11,CUST-236,Gadget B,1,129.50,South,Charlie
+TXN-1241,2026-09-12,CUST-237,Widget A,2,49.99,East,Bob
+TXN-1242,2026-09-13,CUST-238,Thingamajig,5,19.99,North,Alice
+TXN-1243,2026-09-14,CUST-239,Widget A,1,49.99,West,Bob
+TXN-1244,2026-09-15,CUST-240,Gadget B,2,129.50,South,Alice
+TXN-1245,2026-09-16,CUST-241,Widget A,3,49.99,East,Charlie
+TXN-1246,2026-09-17,CUST-242,Thingamajig,2,19.99,North,Bob
+TXN-1247,2026-09-18,CUST-243,Widget A,4,49.99,West,Alice
+TXN-1248,2026-09-19,CUST-244,Gadget B,1,129.50,South,Charlie
+TXN-1249,2026-09-20,CUST-245,Widget A,2,49.99,East,Bob
+TXN-1250,2026-09-21,CUST-246,Thingamajig,5,19.99,North,Alice
+TXN-1251,2026-09-22,CUST-247,Widget A,1,49.99,West,Bob
+TXN-1252,2026-09-23,CUST-248,Gadget B,2,129.50,South,Alice
+TXN-1253,2026-09-24,CUST-249,Widget A,3,49.99,East,Charlie
+TXN-1254,2026-09-25,CUST-250,Thingamajig,2,19.99,North,Bob
+TXN-1255,2026-09-26,CUST-251,Widget A,4,49.99,West,Alice
+TXN-1256,2026-09-27,CUST-252,Gadget B,1,129.50,South,Charlie
+TXN-1257,2026-09-28,CUST-253,Widget A,2,49.99,East,Bob
+TXN-1258,2026-09-29,CUST-254,Thingamajig,5,19.99,North,Alice
+TXN-1259,2026-09-30,CUST-255,Widget A,1,49.99,West,Bob
+TXN-1260,2026-10-01,CUST-256,Gadget B,2,129.50,South,Alice
+TXN-1261,2026-10-02,CUST-257,Widget A,3,49.99,East,Charlie
+TXN-1262,2026-10-03,CUST-258,Thingamajig,2,19.99,North,Bob
+TXN-1263,2026-10-04,CUST-259,Widget A,4,49.99,West,Alice
+TXN-1264,2026-10-05,CUST-260,Gadget B,1,129.50,South,Charlie
+TXN-1265,2026-10-06,CUST-261,Widget A,2,49.99,East,Bob
+TXN-1266,2026-10-07,CUST-262,Thingamajig,5,19.99,North,Alice
+TXN-1267,2026-10-08,CUST-263,Widget A,1,49.99,West,Bob
+TXN-1268,2026-10-09,CUST-264,Gadget B,2,129.50,South,Alice
+TXN-1269,2026-10-10,CUST-265,Widget A,3,49.99,East,Charlie
+TXN-1270,2026-10-11,CUST-266,Thingamajig,2,19.99,North,Bob
+TXN-1271,2026-10-12,CUST-267,Widget A,4,49.99,West,Alice
+TXN-1272,2026-10-13,CUST-268,Gadget B,1,129.50,South,Charlie
+TXN-1273,2026-10-14,CUST-269,Widget A,2,49.99,East,Bob
+TXN-1274,2026-10-15,CUST-270,Thingamajig,5,19.99,North,Alice
+TXN-1275,2026-10-16,CUST-271,Widget A,1,49.99,West,Bob
+TXN-1276,2026-10-17,CUST-272,Gadget B,2,129.50,South,Alice
+TXN-1277,2026-10-18,CUST-273,Widget A,3,49.99,East,Charlie
+TXN-1278,2026-10-19,CUST-274,Thingamajig,2,19.99,North,Bob
+TXN-1279,2026-10-20,CUST-275,Widget A,4,49.99,West,Alice
+TXN-1280,2026-10-21,CUST-276,Gadget B,1,129.50,South,Charlie
+TXN-1281,2026-10-22,CUST-277,Widget A,2,49.99,East,Bob
+TXN-1282,2026-10-23,CUST-278,Thingamajig,5,19.99,North,Alice
+TXN-1283,2026-10-24,CUST-279,Widget A,1,49.99,West,Bob
+TXN-1284,2026-10-25,CUST-280,Gadget B,2,129.50,South,Alice
+TXN-1285,2026-10-26,CUST-281,Widget A,3,49.99,East,Charlie
+TXN-1286,2026-10-27,CUST-282,Thingamajig,2,19.99,North,Bob
+TXN-1287,2026-10-28,CUST-283,Widget A,4,49.99,West,Alice
+TXN-1288,2026-10-29,CUST-284,Gadget B,1,129.50,South,Charlie
+TXN-1289,2026-10-30,CUST-285,Widget A,2,49.99,East,Bob
+TXN-1290,2026-10-31,CUST-286,Thingamajig,5,19.99,North,Alice
+TXN-1291,2026-11-01,CUST-287,Widget A,1,49.99,West,Bob
+TXN-1292,2026-11-02,CUST-288,Gadget B,2,129.50,South,Alice
+TXN-1293,2026-11-03,CUST-289,Widget A,3,49.99,East,Charlie
+TXN-1294,2026-11-04,CUST-290,Thingamajig,2,19.99,North,Bob
+TXN-1295,2026-11-05,CUST-291,Widget A,4,49.99,West,Alice
+TXN-1296,2026-11-06,CUST-292,Gadget B,1,129.50,South,Charlie
+TXN-1297,2026-11-07,CUST-293,Widget A,2,49.99,East,Bob
+TXN-1298,2026-11-08,CUST-294,Thingamajig,5,19.99,North,Alice
+TXN-1299,2026-11-09,CUST-295,Widget A,1,49.99,West,Bob
+TXN-1300,2026-11-10,CUST-296,Gadget B,2,129.50,South,Alice
+TXN-1301,2026-11-11,CUST-297,Widget A,3,49.99,East,Charlie
+TXN-1302,2026-11-12,CUST-298,Thingamajig,2,19.99,North,Bob
+TXN-1303,2026-11-13,CUST-299,Widget A,4,49.99,West,Alice
+TXN-1304,2026-11-14,CUST-300,Gadget B,1,129.50,South,Charlie
+TXN-1305,2026-11-15,CUST-301,Widget A,2,49.99,East,Bob
+TXN-1306,2026-11-16,CUST-302,Thingamajig,5,19.99,North,Alice
+TXN-1307,2026-11-17,CUST-303,Widget A,1,49.99,West,Bob
+TXN-1308,2026-11-18,CUST-304,Gadget B,2,129.50,South,Alice
+TXN-1309,2026-11-19,CUST-305,Widget A,3,49.99,East,Charlie
+TXN-1310,2026-11-20,CUST-306,Thingamajig,2,19.99,North,Bob
+TXN-1311,2026-11-21,CUST-307,Widget A,4,49.99,West,Alice
+TXN-1312,2026-11-22,CUST-308,Gadget B,1,129.50,South,Charlie
+TXN-1313,2026-11-23,CUST-309,Widget A,2,49.99,East,Bob
+TXN-1314,2026-11-24,CUST-310,Thingamajig,5,19.99,North,Alice
+TXN-1315,2026-11-25,CUST-311,Widget A,1,49.99,West,Bob
+TXN-1316,2026-11-26,CUST-312,Gadget B,2,129.50,South,Alice
+TXN-1317,2026-11-27,CUST-313,Widget A,3,49.99,East,Charlie
+TXN-1318,2026-11-28,CUST-314,Thingamajig,2,19.99,North,Bob
+TXN-1319,2026-11-29,CUST-315,Widget A,4,49.99,West,Alice
+TXN-1320,2026-11-30,CUST-316,Gadget B,1,129.50,South,Charlie
+TXN-1321,2026-12-01,CUST-317,Widget A,2,49.99,East,Bob
+TXN-1322,2026-12-02,CUST-318,Thingamajig,5,19.99,North,Alice
+TXN-1323,2026-12-03,CUST-319,Widget A,1,49.99,West,Bob
+TXN-1324,2026-12-04,CUST-320,Gadget B,2,129.50,South,Alice
+TXN-1325,2026-12-05,CUST-321,Widget A,3,49.99,East,Charlie
+TXN-1326,2026-12-06,CUST-322,Thingamajig,2,19.99,North,Bob
+TXN-1327,2026-12-07,CUST-323,Widget A,4,49.99,West,Alice
+TXN-1328,2026-12-08,CUST-324,Gadget B,1,129.50,South,Charlie
+TXN-1329,2026-12-09,CUST-325,Widget A,2,49.99,East,Bob
+TXN-1330,2026-12-10,CUST-326,Thingamajig,5,19.99,North,Alice
+TXN-1331,2026-12-11,CUST-327,Widget A,1,49.99,West,Bob
+TXN-1332,2026-12-12,CUST-328,Gadget B,2,129.50,South,Alice
+TXN-1333,2026-12-13,CUST-329,Widget A,3,49.99,East,Charlie
+TXN-1334,2026-12-14,CUST-330,Thingamajig,2,19.99,North,Bob
+TXN-1335,2026-12-15,CUST-331,Widget A,4,49.99,West,Alice
+TXN-1336,2026-12-16,CUST-332,Gadget B,1,129.50,South,Charlie
+TXN-1337,2026-12-17,CUST-333,Widget A,2,49.99,East,Bob
+TXN-1338,2026-12-18,CUST-334,Thingamajig,5,19.99,North,Alice
+TXN-1339,2026-12-19,CUST-335,Widget A,1,49.99,West,Bob
+TXN-1340,2026-12-20,CUST-336,Gadget B,2,129.50,South,Alice
+TXN-1341,2026-12-21,CUST-337,Widget A,3,49.99,East,Charlie
+TXN-1342,2026-12-22,CUST-338,Thingamajig,2,19.99,North,Bob
+TXN-1343,2026-12-23,CUST-339,Widget A,4,49.99,West,Alice
+TXN-1344,2026-12-24,CUST-340,Gadget B,1,129.50,South,Charlie
+TXN-1345,2026-12-25,CUST-341,Widget A,2,49.99,East,Bob
+TXN-1346,2026-12-26,CUST-342,Thingamajig,5,19.99,North,Alice
+TXN-1347,2026-12-27,CUST-343,Widget A,1,49.99,West,Bob
+TXN-1348,2026-12-28,CUST-344,Gadget B,2,129.50,South,Alice
+TXN-1349,2026-12-29,CUST-345,Widget A,3,49.99,East,Charlie
+TXN-1350,2026-12-30,CUST-346,Thingamajig,2,19.99,North,Bob
+TXN-1351,2026-12-31,CUST-347,Widget A,4,49.99,West,Alice
+TXN-1352,2027-01-01,CUST-348,Gadget B,1,129.50,South,Charlie
+TXN-1353,2027-01-02,CUST-349,Widget A,2,49.99,East,Bob
+TXN-1354,2027-01-03,CUST-350,Thingamajig,5,19.99,North,Alice
+TXN-1355,2027-01-04,CUST-351,Widget A,1,49.99,West,Bob
+TXN-1356,2027-01-05,CUST-352,Gadget B,2,129.50,South,Alice
+TXN-1357,2027-01-06,CUST-353,Widget A,3,49.99,East,Charlie
+TXN-1358,2027-01-07,CUST-354,Thingamajig,2,19.99,North,Bob
+TXN-1359,2027-01-08,CUST-355,Widget A,4,49.99,West,Alice
+TXN-1360,2027-01-09,CUST-356,Gadget B,1,129.50,South,Charlie
+TXN-1361,2027-01-10,CUST-357,Widget A,2,49.99,East,Bob
+TXN-1362,2027-01-11,CUST-358,Thingamajig,5,19.99,North,Alice
+TXN-1363,2027-01-12,CUST-359,Widget A,1,49.99,West,Bob
+TXN-1364,2027-01-13,CUST-360,Gadget B,2,129.50,South,Alice
+TXN-1365,2027-01-14,CUST-361,Widget A,3,49.99,East,Charlie
+TXN-1366,2027-01-15,CUST-362,Thingamajig,2,19.99,North,Bob
+TXN-1367,2027-01-16,CUST-363,Widget A,4,49.99,West,Alice
+TXN-1368,2027-01-17,CUST-364,Gadget B,1,129.50,South,Charlie
+TXN-1369,2027-01-18,CUST-365,Widget A,2,49.99,East,Bob
+TXN-1370,2027-01-19,CUST-366,Thingamajig,5,19.99,North,Alice
+TXN-1371,2027-01-20,CUST-367,Widget A,1,49.99,West,Bob
+TXN-1372,2027-01-20,CUST-368,Widget A,1,49.99,West,Bob
+TXN-1373,2027-01-20,CUST-369,Widget A,1,49.99,West,Bob
+TXN-1374,2027-01-20,CUST-370,Widget A,1,49.99,West,Bob
+TXN-1375,2027-01-20,CUST-371,Widget A,1,49.99,West,Bob
+TXN-1376,2027-01-20,CUST-372,Widget A,1,49.99,West,Bob
+TXN-1377,2027-01-20,CUST-373,Widget A,1,49.99,West,Bob
+TXN-1378,2027-01-20,CUST-374,Widget A,1,49.99,West,Bob
+TXN-1379,2027-01-20,CUST-375,Widget A,1,49.99,West,Bob
+TXN-1380,2027-01-20,CUST-376,Widget A,1,49.99,West,Bob
+TXN-1381,2027-01-20,CUST-377,Widget A,1,49.99,West,Bob
+TXN-1382,2027-01-20,CUST-378,Widget A,1,49.99,West,Bob
+TXN-1383,2027-01-20,CUST-379,Widget A,1,49.99,West,Bob
+TXN-1384,2027-01-20,CUST-380,Widget A,1,49.99,West,Bob
+TXN-1385,2027-01-20,CUST-381,Widget A,1,49.99,West,Bob
+TXN-1386,2027-01-20,CUST-382,Widget A,1,49.99,West,Bob
+TXN-1387,2027-01-20,CUST-383,Widget A,1,49.99,West,Bob
+TXN-1388,2027-01-20,CUST-384,Widget A,1,49.99,West,Bob
+TXN-1389,2027-01-20,CUST-385,Widget A,1,49.99,West,Bob
+TXN-1390,2027-01-20,CUST-386,Widget A,1,49.99,West,Bob
+TXN-1391,2027-01-20,CUST-387,Widget A,1,49.99,West,Bob
+TXN-1392,2027-01-20,CUST-388,Widget A,1,49.99,West,Bob
+TXN-1393,2027-01-20,CUST-389,Widget A,1,49.99,West,Bob
+TXN-1394,2027-01-20,CUST-390,Widget A,1,49.99,West,Bob
+TXN-1395,2027-01-20,CUST-391,Widget A,1,49.99,West,Bob
+TXN-1396,2027-01-20,CUST-392,Widget A,1,49.99,West,Bob
+TXN-1397,2027-01-20,CUST-393,Widget A,1,49.99,West,Bob
+TXN-1398,2027-01-20,CUST-394,Widget A,1,49.99,West,Bob
+TXN-1399,2027-01-20,CUST-395,Widget A,1,49.99,West,Bob
+TXN-1400,2027-01-20,CUST-396,Widget A,1,49.99,West,Bob
+TXN-1401,2027-01-20,CUST-397,Widget A,1,49.99,West,Bob
+TXN-1402,2027-01-20,CUST-398,Widget A,1,49.99,West,Bob
+TXN-1403,2027-01-20,CUST-399,Widget A,1,49.99,West,Bob
+TXN-1404,2027-01-20,CUST-400,Widget A,1,49.99,West,Bob
+TXN-1405,2027-01-20,CUST-401,Widget A,1,49.99,West,Bob
+TXN-1406,2027-01-20,CUST-402,Widget A,1,49.99,West,Bob
+TXN-1407,2027-01-20,CUST-403,Widget A,1,49.99,West,Bob
+TXN-1408,2027-01-20,CUST-404,Widget A,1,49.99,West,Bob
+TXN-1409,2027-01-20,CUST-405,Widget A,1,49.99,West,Bob
+TXN-1410,2027-01-20,CUST-406,Widget A,1,49.99,West,Bob
+TXN-1411,2027-01-20,CUST-407,Widget A,1,49.99,West,Bob
+TXN-1412,2027-01-20,CUST-408,Widget A,1,49.99,West,Bob
+TXN-1413,2027-01-20,CUST-409,Widget A,1,49.99,West,Bob
+TXN-1414,2027-01-20,CUST-410,Widget A,1,49.99,West,Bob
+TXN-1415,2027-01-20,CUST-411,Widget A,1,49.99,West,Bob
+TXN-1416,2027-01-20,CUST-412,Widget A,1,49.99,West,Bob
+TXN-1417,2027-01-20,CUST-413,Widget A,1,49.99,West,Bob
+TXN-1418,2027-01-20,CUST-414,Widget A,1,49.99,West,Bob
+TXN-1419,2027-01-20,CUST-415,Widget A,1,49.99,West,Bob
+TXN-1420,2027-01-20,CUST-416,Widget A,1,49.99,West,Bob
+TXN-1421,2027-01-20,CUST-417,Widget A,1,49.99,West,Bob
+TXN-1422,2027-01-20,CUST-418,Widget A,1,49.99,West,Bob
+TXN-1423,2027-01-20,CUST-419,Widget A,1,49.99,West,Bob
+TXN-1424,2027-01-20,CUST-420,Widget A,1,49.99,West,Bob
+TXN-1425,2027-01-20,CUST-421,Widget A,1,49.99,West,Bob
+TXN-1426,2027-01-20,CUST-422,Widget A,1,49.99,West,Bob
+TXN-1427,2027-01-20,CUST-423,Widget A,1,49.99,West,Bob
+TXN-1428,2027-01-20,CUST-424,Widget A,1,49.99,West,Bob
+TXN-1429,2027-01-20,CUST-425,Widget A,1,49.99,West,Bob
+TXN-1430,2027-01-20,CUST-426,Widget A,1,49.99,West,Bob
+ separation of concerns between the model and the sandbox. The model reads the sandbox output and explains it; the sandbox does the counting. That is the difference between a finding you can defend and a sentence that sounds right.
+
+## What Perch computes from it
+
+Running `perch run "profile this spreadsheet and flag anomalies" --mode agents --cwd ./examples/sales-data` returns a structured data profile with these sections:
+
+| Section | What it checks |
+|---------|---------------|
+| Schema | Column names, types, null rates |
+| Duplicates | Exact duplicate rows |
+| Outliers | Statistical anomalies in numeric columns |
+| Consistency | Formatting irregularities (dates, currencies, IDs) |
+| Coverage | Missing values by column |
+
+The numbers are deterministic: the same file returns the same profile every run, because Python computes them in a sealed sandbox.
+
+## Planted issues
+
+This dataset has intentional mess so the checks have something real to find:
+
+1. **A missing customer ID.** Row TXN-1005 has an empty `customer_id`.
+2. **Duplicate rows.** TXN-1001 and TXN-1004 are identical transactions for the same customer, product, and amount.
+3. **A date out of range.** The dataset is labeled Q1 2026, but TXN-1077 is dated 2026-04-01 (April).
+4. **Inconsistent product naming.** "Thingamajig" appears without a letter suffix while "Widget A" and "Gadget B" have them.
+5. **A burst of identical transactions.** TXN-1372 through TXN-1430 are all the same: CUST-368 through CUST-426, same date, same product, same amount. This is either a data loading error or a bulk promotion that should be flagged.
+
+## Notes
+
+The sandbox runs in a sealed environment with no network access. Your data is copied in, analyzed, and the results are returned. The original file is never modified.
+
+Perch uses the `run_sandbox_code` tool for this, which is available in the CLI when running with `--mode agents`. The model decides what Python to write based on the file it sees, and the sandbox executes it deterministically.
