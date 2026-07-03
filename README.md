@@ -1,6 +1,6 @@
 # Perch Cookbook
 
-Runnable recipes for [Perch](https://perchai.app), the AI operator for work you can check.
+Runnable recipes for [Perch](https://www.perchai.app), the AI operator for work you can check.
 
 Each recipe is a small, real task with the exact commands to run it. They are grouped by surface, because some capabilities live on the desktop app and some are terminal-safe in the CLI. Where a recipe is web or desktop only, it says so.
 
@@ -43,6 +43,8 @@ Have a recipe that shows Perch doing something useful? Open a pull request with 
 
 ## Links
 
-- [Website](https://perchai.app)
-- [Docs](https://perchai.app/docs)
+- [Website](https://www.perchai.app)
+- [Docs](https://www.perchai.app/docs)
+- [How Perch works](https://www.perchai.app/docs/concepts/how-perch-works)
+- [Citations](https://www.perchai.app/docs/concepts/citations) · [Models](https://www.perchai.app/docs/concepts/models) · [Memory](https://www.perchai.app/docs/concepts/memory)
 - [Try it on the web](https://chat.perchai.app)
